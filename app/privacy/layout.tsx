@@ -5,7 +5,7 @@ import { Modal } from "../components/Modal";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "American Finance Experts - Privacy Policy",
+  description: "American Lifestyle Products - Privacy Policy",
 };
 
 export default function PrivacyPolicyLayout({

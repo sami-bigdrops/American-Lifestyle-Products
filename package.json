@@ -1,5 +1,5 @@
 {
-  "name": "american-lifestyle-experts",
+  "name": "american-lifestyle-products",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "fix-react2shell-next": "^1.0.18",
-    "lucide-react": "^0.560.0",
-    "next": "16.0.7",
+    "googleapis": "^169.0.0",
+    "lucide-react": "^0.561.0",
+    "next": "^16.0.10",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "react2shell-guard": "^1.1.1"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

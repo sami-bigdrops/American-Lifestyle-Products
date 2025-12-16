@@ -1,4 +1,9 @@
+'use client';
+
+import { useModal } from "../contexts/ModalContext";
+
 export default function PrivacyPolicy() {
+  const { openModal } = useModal();
   return (
     <section className="bg-(--color-white) w-full">
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12 md:px-12 md:py-16 lg:px-16 lg:py-20 xl:px-20 xl:py-24">
@@ -153,10 +158,7 @@ export default function PrivacyPolicy() {
               10. Contact Us
             </h2>
             <p className="font-body text-[15px] leading-[26px] text-(--color-black-grey) sm:text-[16px] sm:leading-[28px]">
-              If you have any questions about this Privacy Policy or our data practices, please contact us:
-            </p>
-            <p className="font-body text-[15px] leading-[26px] text-(--color-black-grey) sm:text-[16px] sm:leading-[28px]">
-              Email: <a href="mailto:contact@americanlifestyleproducts.com" className="text-(--color-blue) hover:underline">contact@americanlifestyleproducts.com</a>
+              If you have any questions about these Terms and Conditions, please <button onClick={() => openModal('contact')} className="text-(--color-blue) underline">Contact Us</button>
             </p>
           </div>
 

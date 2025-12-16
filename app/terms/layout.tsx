@@ -5,7 +5,7 @@ import { Modal } from "../components/Modal";
 
 export const metadata: Metadata = {
     title: "Terms & Conditions",
-    description: "American Finance Experts - Terms & Conditions",
+    description: "American Lifestyle Products - Terms & Conditions",
 };
 
 export default function TermsConditionsLayout({
